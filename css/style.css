@@ -144,7 +144,6 @@ main .main .adress{
 }
 
 main .main .registerAd{
-    border: .1rem solid black;
     display: flex;
     flex-direction: column;
 }
@@ -187,7 +186,21 @@ main .main .registerAd .registerAd-2 .infoAd {
     justify-content: space-between;
 }
 
-main .main 
+main .main .buttom{
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+main .main .buttom button{
+    background-color: var(--menu-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9rem;
+    height: 3rem;
+    border-radius: .3rem;
+    color: var(--background-color);
+}
 
  /* COMPLETO NÃO MEXER */
 
