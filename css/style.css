@@ -29,7 +29,6 @@ body {
 
 .container {
     margin: 0 auto;
-    border: .1rem solid tomato;
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -130,6 +129,13 @@ main .main .register .register-1 {
     display: flex;
     justify-content: space-between;
 }
+main .main .register .register-1 .info input {
+    border:.2rem solid var(--menu-color);
+    border-radius: .5rem;
+    outline:none;
+    padding-left: 1rem;
+    height: 8rem;
+}
 main .main .register .register-1 .info {
     display: flex;
     flex-direction: column;
@@ -155,6 +161,14 @@ main .main .registerAd .registerAd-1{
     display: flex;
     justify-content: space-between;
 
+
+}
+.infoAd input {
+    border:.2rem solid var(--menu-color);
+    border-radius: .5rem;
+    outline:none;
+    padding-left: 1rem;
+    height: 8rem;
 
 }
 main .main .registerAd .registerAd-1 .infoAd {
