@@ -109,7 +109,7 @@ main {
     background-color: var(--background-color);
 }
 
-.main {
+main .main {
     background-color: var(--background-menu-color);
     border-radius: .5rem;
     margin-top: .5rem;
@@ -117,6 +117,77 @@ main {
     margin-right: 2.5rem;
     height: 64.5rem;
 }
+
+main .main .general {
+    padding-top: 1rem;
+    margin-left: 3rem;
+}
+
+main .main .register .register-1 {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    width: 61.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+main .main .register .register-1 .info {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 5.3rem;
+    justify-content: space-between;
+}
+main .main .adress{
+    margin-top: 11.4rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+main .main .registerAd{
+    border: .1rem solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+main .main .registerAd .registerAd-1{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 61.5rem;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+main .main .registerAd .registerAd-1 .infoAd {
+    display: flex;
+    flex-direction: column;
+    width: 45rem;
+    height: 5.3rem;
+    justify-content: space-between;
+}
+main .main .registerAd .registerAd-1 .infoAd:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    height: 5.3rem;
+    justify-content: space-between;
+}
+main .main .registerAd .registerAd-2{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: 42rem;
+    display: flex;
+    gap: 1rem;
+}
+main .main .registerAd .registerAd-2 .infoAd {
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 5.3rem;
+    justify-content: space-between;
+}
+
+main .main 
 
  /* COMPLETO NÃO MEXER */
 
