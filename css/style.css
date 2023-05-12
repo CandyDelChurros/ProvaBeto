@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;700&family=Press+Start+2P&display=swap');
+
+:root {
+    --menu-color:#272741;
+    --hover-color:#4a4a7c;
+    --background-menu-color:#f5f8fc;
+    --buttom-color:#f7c073;
+    --background-color: #e2e4ea;
+    --text-color:#a3a3a5;
+    --exit-color:red;
+}
+
+* {
+    border:0;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.container {
+    margin: 0 auto;
+    border: .1rem solid tomato;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 25rem 1fr 35rem;
+}
+
+/* COMPLETO NÃO MEXER */
+
+aside {
+    background-color: var(--menu-color);
+}
+
+aside .menu {
+    height: 66.3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--background-color);
+}
+
+aside .menu .menutop {
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+    width: 20rem;
+}
+aside .menu .menutop .menuop:hover {
+    background-color:var(--hover-color);
+    border-radius: .2rem;
+    margin-left: 1rem;
+}
+
+aside .menu .menutop .menuop {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 1rem;
+    height: 3.5rem;
+}
+aside .menu .menutop .menuop:nth-child(7) {
+    color:var(--exit-color);
+}
+
+aside .menu .menudown {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.5rem;
+    width: 20rem;
+}
+
+aside .menu .menudown .menuop:hover {
+    background-color: var(--hover-color);
+    border-radius: .2rem;
+    margin-left: 1rem;
+}
+aside .menu .menudown .menuop {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: 1rem;
+    height: 3.5rem;
+}
+aside .menu .menudown .menuop:nth-child(1) i {
+    color: var(--buttom-color);
+}
+
+aside .menu .menudown .menuop .themesberg{
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../img/Themesberg.webp);
+    background-size: cover;
+    color: var(--buttom-color);
+}
+
+
+main {
+    background-color: var(--background-color);
+}
+
+.main {
+    background-color: var(--background-menu-color);
+    border-radius: .5rem;
+    margin-top: .5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    height: 64.5rem;
+}
+
+ /* COMPLETO NÃO MEXER */
+
+footer {
+    background-color: var(--background-color);
+}
+
+footer .you {
+    /* border: .1rem solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:64.5rem ;
+    margin-right: .9rem;
+}
+
+footer .you .youtop {
+    background-color: var(--background-menu-color);
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 42rem;
+    border-radius: .5rem;
+}
+
+footer .you .youtop .background {
+    height: 15rem;
+    background-image: url(../img/Background.jpg);
+    background-size: cover;
+}
+
+footer .you .youtop .photo {
+    border: .2rem solid var(--background-color);
+    border-radius: 10rem;
+    background-image: url(../img/Profile.jpg);
+    background-size: cover;
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    top: 8rem;
+    left: 10rem;
+}
+
+footer .you .youtop .you-info {
+    display: flex;
+    gap:.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    height: 10rem;
+}
+
+footer .you .youtop .you-info h5 {
+    color: var(--text-color);
+}
+footer .you .youtop .you-button {
+    display: flex;
+    gap: .8rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+footer .you .youtop .you-button .button button {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: .5rem;
+}
+footer .you .you-button .button:nth-child(1) button{
+    background-color: var(--menu-color);
+    height: 2.5rem;
+    width: 6.8rem;
+    color: var(--background-color);
+    padding-right: .2rem;
+}
+
+footer .you .you-button .button:nth-child(2) button{
+    background-color: var(--buttom-color);
+    height: 2.5rem;
+    width: 7.8rem;
+}
+
+
+/*COMPLETO NÃO MEXER */
+
+footer .you .youdown {
+    background-color: var(--background-menu-color);
+    display: flex;
+    flex-direction: column;
+    height: 14.5rem;
+    border-radius: .5rem;
+}
+
+.text {
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.select {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    margin-left: 2rem;
+}
+.images {
+    width: 14rem;
+    display: flex;
+    align-items:center;
+    font-size: 3rem;
+    gap: 2rem;
+    color: var(--menu-color);
+}
+.image {
+    width: 8rem;
+    height: 7.8rem;
+    background-image: url(../img/Select\ Profile.gif);
+    background-size: 8rem;
+    background-repeat: no-repeat;
+}
+
+.select-bot{
+    color:var(--text-color)
+}
